@@ -15,15 +15,19 @@
     height: 100%;
   }
 
+  iframe {
+    margin-top: 30px;
+  }
+
 
   a{
-    color:#a5732a;
+    color:#e65b00;
   }
 
   a:hover {
     outline: none;
     text-decoration:none;
-    color:#dab074;
+    color:#ff8533;
   }
 
   a:focus {
@@ -72,7 +76,7 @@
   .btn-common {
     font-size: 14px;
     color: #797979;
-    border: 1px solid #dbb075;
+    border: 1px solid #e65b00;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding: 10px 25px;
@@ -261,11 +265,11 @@
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #d29948;
+  color: #F7A11A;
 }
 
 #header .navbar-inverse .navbar-nav  li a:hover{
-  color: #d29948;
+  color: #E77B11;
 }
 
 
@@ -494,12 +498,13 @@ ul.sub-menu {
 #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
-  background-repeat: no-repeat;
+  
+
 }
 
 #home-slider .main-slider {
   position: relative;
-  height: 450px;
+  height: 300px;
 }
 
 #home-slider .slide-text{
@@ -507,6 +512,8 @@ ul.sub-menu {
   top: 50px;
   left: 0;
   width: 450px;
+  float: right;
+
 }
 
 .animate-in .slide-text {
@@ -526,44 +533,10 @@ ul.sub-menu {
 }
 
 
-
-#home-slider .slider-cloud1 {
-  position: absolute;
-  right: 290px;
-  bottom: 250px;
-}
-
-.animate-in .slider-cloud1 {
-  -webkit-animation: bounceIn 500ms ease-in-out 1300ms both;
-  animation: bounceIn 500ms ease-in-out 1300ms both;
-}
-
-#home-slider .slider-cloud2 {
-  position: absolute;
-  right: 375px;
-  bottom: 330px;
-}
-
-.animate-in .slider-cloud2 {
-  -webkit-animation: bounceIn 500ms ease-in-out 1500ms both;
-  animation: bounceIn 500ms ease-in-out 1500ms both;
-}
-
-#home-slider .slider-cloud3 {
-  position: absolute;
-  right: 75px;
-  bottom: 300px;
-}
-
-.animate-in .slider-cloud3 {
-  -webkit-animation: bounceIn 500ms ease-in-out 1700ms both;
-  animation: bounceIn 500ms ease-in-out 1700ms both;
-}
-
 #home-slider .slider-chef {
   position: absolute;
   bottom: -15px;
-  left: 170px;
+  right: 300px;
 }
 
 .animate-in .slider-chef {
@@ -571,20 +544,10 @@ ul.sub-menu {
   animation: bounceIn 800ms ease-in-out 1900ms both;
 }
 
-#home-slider .slider-sun {
-  position: absolute;
-  right: 190px;
-  bottom: 300px;
-}
-
-.animate-in .slider-sun {
-  -webkit-animation: bounceIn 800ms ease-in-out 1900ms both;
-  animation: bounceIn 800ms ease-in-out 1900ms both;
-}
 
 #home-slider .slider-cycle {
   position: absolute;
-  right: 500px;
+  right: 0;
   bottom: 0;
 }
 
