@@ -450,7 +450,7 @@ ul.sub-menu {
 }
 
 .form-control {
-  border: 1px solid #d99c4e;
+  border: 1px solid #F17024;
   font-weight: 300;
   outline: none;
   box-shadow: none;
@@ -498,7 +498,7 @@ ul.sub-menu {
 #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
-  
+
 
 }
 
@@ -837,7 +837,7 @@ ul.sub-menu {
 
 .count h1{
   font-size: 60px;
-  color: #dab074;
+  color: #FDCD5A;
 }
 
 .count h3{
